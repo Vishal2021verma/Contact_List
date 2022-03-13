@@ -20,7 +20,7 @@ export default function App() {
           <AddNew addDetails={addInList} />
           <Details />
         </div>
-        {console.log(detailsA)}
+
         <div className="content-div-list">
           <h1>Contact List</h1>
           {detailsA.map((contactList, index) => {
